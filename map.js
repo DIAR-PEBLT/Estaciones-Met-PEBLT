@@ -1,4 +1,4 @@
-let map = L.map('map').setView([-15.488396, -70.167500], 8.5)
+let map = L.map('map').setView([-15.488396, -70.167500], 9)
 
 L.tileLayer('https://mt1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}', { foo: 'bar', attribution: '&copy; <a href="https://www.google.at/permissions/geoguidelines/attr-guide.html">Map data ©2015 Google</a>' }).addTo(map);
 
